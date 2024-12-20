@@ -1,0 +1,40 @@
+.my-modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.my-modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(90, 90, 90, 0.3);
+  cursor: pointer;
+}
+
+.my-modal-content {
+  position: relative;
+  z-index: 1100;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  max-width: 60%;
+  max-height: 80%;
+  overflow: auto;
+  border-radius: 15px;
+}
+
+.my-modal-image {
+
+  max-height: 60vh;
+  object-fit: contain;
+}
